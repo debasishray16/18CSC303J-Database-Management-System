@@ -35,6 +35,7 @@ ALTER TABLE student DROP COLUMN address ;
 ## TRUNCATE VS DROP TABLE
 
 1. Truncate table deletes rows from table but does not remove table from database.
+
 ```mysql
 TRUNCATE TABLE student;
 ```
@@ -43,9 +44,9 @@ TRUNCATE TABLE student;
 SQL> select * from student;
 no rows selected
 ```
+
 2. Drop table deletes the whole table from the database.
-```mysql
-```
+
 
 ```mysql
 DROP TABLE student;
