@@ -1,6 +1,7 @@
 # Experiment 1
 
 ## DDL Commands
+
 1. Create command creates a table in database.
 
 ```mysql
@@ -8,16 +9,19 @@ CREATE TABLE student (id NUMBER(10) NOT NULL PRIMARY KEY, name VARCHAR(10) NOT N
 ```
 
 2. Adding the column
+
 ```mysql
 ALTER TABLE student ADD address VARCHAR2(20) NOT NULL;
 ```
 
 3. Modify the column
+
 ```mysql
 SQL> ALTER TABLE student MODIFY address VARCHAR2(10) NULL;
 ```
 
 4. Deleting the column
+
 ```mysql
 ALTER TABLE student DROP COLUMN address ;
 ```
@@ -30,7 +34,6 @@ ALTER TABLE student DROP COLUMN address ;
  PHONE                                     NOT NULL NUMBER(10)
  SECTION                                   NOT NULL VARCHAR2(2)
 ```
-
 
 ## TRUNCATE VS DROP TABLE
 
@@ -47,10 +50,9 @@ no rows selected
 
 2. Drop table deletes the whole table from the database.
 
-
 ```mysql
 DROP TABLE student;
-```
+```F
 
 ```text
 SQL> select * from student;
