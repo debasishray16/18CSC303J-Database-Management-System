@@ -52,7 +52,7 @@ no rows selected
 
 ```mysql
 DROP TABLE student;
-```F
+```
 
 ```text
 SQL> select * from student;
