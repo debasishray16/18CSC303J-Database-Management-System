@@ -251,7 +251,7 @@ PL/SQL procedure successfully completed.
 4. For creating the function that performs division.
 
 ```sql
-CREATE OR REPLACE FUNCTION Division(n1 IN INTEGER, n2 IN INTEGER)
+CREATE OR REPLACE FUNCTION Division(n1 IN NUMBER, n2 IN NUMBER)
 RETURN NUMBER
 
 IS
