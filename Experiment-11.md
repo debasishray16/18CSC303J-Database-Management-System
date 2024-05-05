@@ -325,3 +325,69 @@ Value: 1.91666666666666666666666666666666666667
 
 PL/SQL procedure successfully completed.
 ```
+
+**NOTE: We can perform this also.**
+
+```sql
+DECLARE
+
+n3 NUMBER;
+
+BEGIN
+
+n3:=Addition(12,34);
+dbms_output.put_line('Addition function created');
+dbms_output.put_line('Value: '||n3);
+
+n3:=Subtraction(34,23);
+dbms_output.put_line('Subtraction function created');
+dbms_output.put_line('Value: '||n3);
+
+n3:=Multiplication(34,24);
+dbms_output.put_line('Multiplication function created');
+dbms_output.put_line('Value: '||n3);
+
+n3:=Division(10,2);
+dbms_output.put_line('Division function created');
+dbms_output.put_line('Value: '||n3);
+
+END;
+/
+```
+
+```text
+SQL> DECLARE
+  2
+  3  n3 NUMBER;
+  4
+  5  BEGIN
+  6
+  7  n3:=Addition(12,34);
+  8  dbms_output.put_line('Addition function created');
+  9  dbms_output.put_line('Value: '||n3);
+ 10
+ 11  n3:=Subtraction(34,23);
+ 12  dbms_output.put_line('Subtraction function created');
+ 13  dbms_output.put_line('Value: '||n3);
+ 14
+ 15  n3:=Multiplication(34,24);
+ 16  dbms_output.put_line('Multiplication function created');
+ 17  dbms_output.put_line('Value: '||n3);
+ 18
+ 19  n3:=Division(10,2);
+ 20  dbms_output.put_line('Division function created');
+ 21  dbms_output.put_line('Value: '||n3);
+ 22
+ 23  END;
+ 24  /
+Addition function created
+Value: 46
+Subtraction function created
+Value: 11
+Multiplication function created
+Value: 816
+Division function created
+Value: 5
+
+PL/SQL procedure successfully completed.
+```
