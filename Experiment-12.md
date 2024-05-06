@@ -143,4 +143,3 @@ SQL> DECLARE
 
 PL/SQL procedure successfully completed.
 ```
-

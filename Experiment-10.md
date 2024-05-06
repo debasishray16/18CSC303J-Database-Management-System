@@ -74,4 +74,3 @@ SQL> BEGIN
 ```
 
 **Note: This will print the result when the data is added to table.**
-
