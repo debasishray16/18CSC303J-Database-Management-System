@@ -21,6 +21,8 @@ END;
 /
 ```
 
+The following statement output:
+
 ```text
 SQL> DECLARE
   2  a integer:=10;
@@ -52,6 +54,8 @@ END;
 /
 
 ```
+
+The following statement output:
 
 ```text
 SQL> DECLARE
@@ -86,6 +90,8 @@ dbms_output.put_line('Acceleration constant: '||G);
 END;
 /
 ```
+
+The following statement output:
 
 ```text
 SQL> DECLARE
@@ -123,6 +129,8 @@ dbms_output.put_line('The area is: '||area);
 END;
 /
 ```
+
+The following statement output:
 
 ```text
 SQL> DECLARE
@@ -166,6 +174,8 @@ END;
 
 ```
 
+The following statement output:
+
 ```text
 SQL> DECLARE
   2  a INTEGER:=10;
@@ -205,6 +215,8 @@ END CASE;
 END;
 /
 ```
+
+The following statement output:
 
 ```text
 SQL> DECLARE
@@ -246,6 +258,8 @@ END;
 /
 ```
 
+The following statement output:
+
 ```text
 10
 11
@@ -279,6 +293,8 @@ END LOOP;
 END;
 /
 ```
+
+The following statement output:
 
 ```text
 SQL> DECLARE
