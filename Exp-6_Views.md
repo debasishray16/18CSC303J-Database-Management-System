@@ -25,4 +25,3 @@ create view Viewer1 AS SELECT Student1.name,Student1.mark2,Details.name,Details.
 Select * from Viewer1;
 
 ```
-

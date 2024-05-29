@@ -37,21 +37,3 @@ select sum(mark1+mark2) from student1;
 select sum(mark2+mark3) from student1;
 select sum(mark3+mark1) from student1;
 ```
-
-```sql
-```
-
-```sql
-```
-
-```sql
-```
-
-```sql
-```
-
-```sql
-```
-
-```sql
-```
